@@ -1,0 +1,7 @@
+/target
+/build
+/dist
+.vscode
+*/__pycache__
+*.cpython*
+*.egg*

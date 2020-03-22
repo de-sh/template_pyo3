@@ -1,0 +1,13 @@
+[package]
+name = "test-py"
+version = "0.1.0"
+authors = ["Devdutt Shenoi <devdutt@outlook.in>"]
+edition = "2018"
+
+[lib]
+name = "test_py"
+crate-type = ["cdylib"]
+
+[dependencies.pyo3]
+version = "0.9.0"
+features = ["extension-module"]
