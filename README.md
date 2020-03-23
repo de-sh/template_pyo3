@@ -3,7 +3,7 @@
 Install and use rust nightly:
 ```
 rustup toolchain install nightly
-rustup default nightly
+rustup override set nightly
 ```
 
 Initiate and move into Pipenv environment:
