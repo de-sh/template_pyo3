@@ -1,11 +1,11 @@
 [package]
-name = "test-py"
-version = "0.1.0"
+name = "template-py"
+version = "0.1.1"
 authors = ["Devdutt Shenoi <devdutt@outlook.in>"]
 edition = "2018"
 
 [lib]
-name = "test_py"
+name = "template_py"
 crate-type = ["cdylib"]
 
 [dependencies.pyo3]

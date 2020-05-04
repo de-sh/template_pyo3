@@ -18,14 +18,14 @@ except ImportError:
 setup_requires = ['setuptools-rust>=0.10.2']
 
 setup(
-    name='test-py',
+    name='template-py',
     version='0.1.0',
     description='Example of python with rust',
-    rust_extensions=[RustExtension('test_py.test_py', "Cargo.toml", debug=True)],
+    rust_extensions=[RustExtension('template_py.template_py', "Cargo.toml", debug=True)],
     install_requires=[],
     setup_requires=setup_requires,
     test_requires=[],
-    packages=['test_py'],
+    packages=['template_py'],
     include_package_data=True,
     zip_safe=False,
 )

@@ -11,7 +11,7 @@ Initiate and move into Pipenv environment:
 pipenv shell
 ```
 
-Install the library:
+Generate a python dynamically linked library from the rust program:
 ```
 python setup.py install
 ```
